@@ -1,0 +1,24 @@
+{
+  "name": "sunplot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve src_functions/",
+    "build": "netlify-lambda build src_functions/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awhitty/sunplot-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awhitty/sunplot-server/issues"
+  },
+  "homepage": "https://github.com/awhitty/sunplot-server#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3"
+  }
+}
